@@ -190,6 +190,14 @@
     <Compile Include="Migrations\202110231909227_PopulateGenresTable.Designer.cs">
       <DependentUpon>202110231909227_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110252001327_FixingForeignKeys.cs" />
+    <Compile Include="Migrations\202110252001327_FixingForeignKeys.Designer.cs">
+      <DependentUpon>202110252001327_FixingForeignKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110252012489_FixingForeignKe.cs" />
+    <Compile Include="Migrations\202110252012489_FixingForeignKe.Designer.cs">
+      <DependentUpon>202110252012489_FixingForeignKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -287,6 +295,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110231909227_PopulateGenresTable.resx">
       <DependentUpon>202110231909227_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110252001327_FixingForeignKeys.resx">
+      <DependentUpon>202110252001327_FixingForeignKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110252012489_FixingForeignKe.resx">
+      <DependentUpon>202110252012489_FixingForeignKe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
