@@ -202,7 +202,12 @@
     <Compile Include="Migrations\202111061301439_AddNameToAppllicationUser.Designer.cs">
       <DependentUpon>202111061301439_AddNameToAppllicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111062004007_AddAttendance.cs" />
+    <Compile Include="Migrations\202111062004007_AddAttendance.Designer.cs">
+      <DependentUpon>202111062004007_AddAttendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="ViewModels\ExternalLoginListViewModel.cs" />
@@ -318,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111061301439_AddNameToAppllicationUser.resx">
       <DependentUpon>202111061301439_AddNameToAppllicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111062004007_AddAttendance.resx">
+      <DependentUpon>202111062004007_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
