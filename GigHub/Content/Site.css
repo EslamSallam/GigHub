@@ -85,3 +85,17 @@ body,
     color: red;
     font-weight: 700;
 }
+
+/* page-level Styles */
+.gigs{
+    list-style:none;
+}
+.gigs > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+.gigs > li .details {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
